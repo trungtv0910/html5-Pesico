@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Bryant;
+    src: url(../font/UTM\ BryantLG.ttf);
+}
+@font-face {
+    font-family: utm_fb;
+    src: url(../font/UTM\ Facebook.ttf);
+}
+.product_detail{
+    padding: 75px 0px 70px 0px;
+    display: flex;
+}
+.sp1{
+    /* background-image: url('../images/product/nền.png'); */
+    background-color:rgb(33 33 31);
+}
+.pd_anh{
+    width:501px;
+    float: left;
+    height: 600px;
+}
+.pd_content{
+    width: 599px;
+    float: right;
+    color: white;
+    font-family: Bryant;
+}
+.pd_content p{
+    padding: 3px 0px;
+}
+
+.pd_title{
+    font-family: utm_fb;
+    font-size: 32px;
+}
+.pd_title_ct{
+    margin: 45px 0px;
+    font-family: Bryant;
+}
+.pd_title_ct2{
+    margin: 20px 0px 35px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: utm_fb;
+    letter-spacing: 2px;
+}
+/* pd_left */
+.pd_left,.pd_right{
+    width: 49%;
+    height: 250px;
+}
+.text_note{
+    clear: both;
+    text-align: center;
+    padding: 25px 0px;
+}
+/* sp2 */
+.sp2{background-color: rgb(0, 101, 195);}
+
+.pd_img{
+    width: 500px;
+    /* float: left; */
+    display: inline-block;
+    text-align: center;
+}
+.pd_img img{
+    width: 300px;
+    
+}
+/* sp3 */
+.sp3{
+    background-color: rgb(197, 20, 47);
+}
+/* btn_product */
+.btn_pd{
+    margin: 25px 10px;
+    background: none;
+   
+}
+/* .sp1 .btn_pd, .sp3 .btn_pd{
+    background: rgb(0, 101, 195);
+}
+.sp2 .btn_pd{background: rgb(197, 20, 47);} */

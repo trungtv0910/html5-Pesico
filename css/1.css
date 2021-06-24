@@ -1,0 +1,274 @@
+* {margin:0;padding: 0;}
+/* css cho phần chung */
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+.wraper{width: 100%;}
+img{width: 100%;
+height: 100%;}
+ul li{list-style: none;}
+a{display: block;text-decoration: none;}
+.float-left{float: left;}
+
+/* css cho header */
+header{height: 90px;
+background-color: #3466c3;
+width: 100%;
+position: fixed;
+top: 0;
+padding: 10px 0;
+animation: 0.4s;
+box-sizing: border-box;
+z-index: 99999;}
+
+.logo,nav{
+    float: left;
+}
+.logo{padding: 6px 0;}
+nav {
+    padding: 16px 30px;
+}
+nav ul li{
+    float: left;
+    padding:0 20px;
+}
+nav ul li a{ font-size: 16px;
+color: white;
+font-weight: bold;
+font-family:sans-serif;
+padding: 10px 0;
+}
+
+nav ul li:hover {
+    opacity: .5 !important;
+}
+.buy_product{
+    background: none;
+    float: right;
+    margin: 15px 0px;
+}
+
+button.btn:hover {
+    background-color: #ffff;
+    color: #3466c3;
+}
+.btn{
+   border: 1px solid white;
+   padding: 10px 35px;
+   font-weight: bold;
+   color: white;
+   outline: none;
+   border-radius: 40px;
+   cursor: pointer;
+   box-sizing: border-box;
+   transition: 0.3s;
+}
+
+
+
+/* css cho phần banner main */
+@font-face {
+    font-family: utm_sharnay;
+    src: url(../font/UTM\ Sharnay.ttf);
+}
+@font-face {
+    font-family: utm_facebook;
+    src: url(../font/UTM\ Facebook.ttf);
+}
+@font-face {
+    font-family: Bryant;
+    src: url(../font/UTM\ BryantLG.ttf);
+}
+.banner{
+    background-image: url(../images/blackpink.png);
+    height: 565px;
+    position: relative;
+}
+.title_banner {position: absolute;top: 120px;text-align: center;}
+.title_banner h3{
+    font-family:utm_sharnay;
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    padding: -19px;
+    line-height: 62px;
+}
+.title_banner p{
+    color: white;
+    font-family: utm_facebook;
+    font-size: 18px;
+    padding: 15px;
+}
+.buy_now {
+    margin: 95px;
+    font-family: 'utm_sharnay';
+    background: white;
+    color: #3466c3;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.btn.buy_now:hover {
+    background: #dd2c2b;
+    color: white;
+    border: 1px solid #dd2c2b ;
+    outline: none;
+}
+/* col2 new_product */
+.col2{
+    height: 745px;
+    font-family: utm_facebook;
+}
+
+.new_product h3{ padding: 60px 0px;
+font-weight: 500;
+font-size: 24px;}
+.list_san_pham {display: flex;}
+.list_san_pham li{
+    text-align: center;
+    width: 31.8%;
+    max-height: 560px;
+    margin:0px 15px ;
+}
+.list_san_pham li:first-child{
+    margin-left: 0px;
+}
+.list_san_pham li:last-child{
+    margin-right: 0px;
+}
+.list_san_pham li p{
+    font-size: 24px;
+    padding: 5px;
+}
+
+.btn_sp
+{
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #3466c3;
+    border: none;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+button.btn_sp:hover {
+    background-color: #132d5d;
+}
+
+/* col3 */
+.col3{
+    background-image: url(../images/col3_background.png);
+    height: 675px;
+    display: flex;
+}
+.col3_img  {
+    width: 470px;
+    height: 90%;
+    margin-right: 30px;  
+    margin: 20px 30px 20px 0px;
+    /* padding-right: 30px; */
+    float: left;
+}
+.col3_content{
+    width: 669px;
+    float:left;
+    color: white;
+    text-align: center;
+}
+.col3_content img{width: 382px;
+height: 60px;}
+.col3_content p:first-child{
+    font-size: 50px;
+    font-family: utm_sharnay;
+    /* margin-top: 84px ; */
+    margin: 84px 0px 0px 0px;
+}
+.col3_content p{
+    font-size: 26px;
+    font-family: utm_facebook;
+    margin: 120px 0px 50px;
+}
+.buy_now_2{
+    background: none;
+    border: 3px solid #f0a6bb;
+    color: #f0a6bb;
+    
+}
+
+/* col4 */
+.col4{
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.col4_img_left{margin-right: 15px;
+width: 570px;}
+.col4_img_right{margin-left: 15px;
+width: 570px;}
+
+
+/* col5 */
+.col5{
+    background-image: url(../images/col5.png);
+    height: 623px;
+    font-family: utm_facebook;
+    color: white;
+}
+.title_col5{
+    padding: 30px 0px 15px;
+    font-size: 26px;
+    font-weight: 500px !important;
+}
+.col5 .list_san_pham .anh_sp{width: 200px;
+height: 400px;
+display: inline-block;}
+.col5_btn{background-color: #c01323;
+margin-top: 15px !important;}
+
+.col5_btn:hover {
+    background: #9f0f1b !important;
+}
+
+.col5_btn:hover {
+    /* opacity: .6 !important; */
+    color: white;
+}
+/* col6 */
+.col6{padding: 50px 0;}
+
+
+/* footer */
+footer{
+    padding: 60px 0px;
+    background-color: #3466c3;
+    display: flex;
+}
+.about {float: right;margin: 14px 0;}
+
+.about a:hover {
+    opacity: .3 !important;
+}
+.about a{float: left;color: white;}
+.about i{padding: 10px;font-size: 26px;}
+footer p{color: white;
+    padding: 28px;float: left;text-align: center;
+    display: block;
+    font-family: Bryant;width: 700px;}
+
+
+
+    /* xây dựng thuộc tính position_fixed cho javascript khi scroll */
+    .position_fixed{
+        position: fixed;
+        width: 100%;
+        transition: 0.4s;
+        top:0px;
+        padding: 0px;
+        height: 70px;
+    }
+    
+    .margin_top{margin-top: 90px;}
